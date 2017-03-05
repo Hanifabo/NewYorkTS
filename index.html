@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+        <h1><i class="fa fa-file-text-o" style="font-size:36px;"></i>New York Times Search</h1>
+    </header>
+
+<div class="container">
+    <form>
+
+            <header id="articleHeader"> Search Parameters</header>
+
+            <label for="sterms">Search Term:</label>
+            <input type="text" name="sterms" id="searchTerms">
+
+            <label for="sterms">Number of Records to Retrieve:</label><br>
+            <select>
+                <option>1</option>
+                <option>5</option>
+                <option>7</option>
+                <option>10</option>
+            </select>
+
+            <label for="sterms">Start Year(Optional):</label>
+            <input type="text" name="sterms" id="starty">
+
+            <label for="sterms">End Year(Optional):</label>
+            <input type="text" name="sterms" id = "endy"><br>
+
+            <button id="search" > <i class="fa fa-search" style="font-size:18px"></i>Search</button>
+            <button id="search"><i class="fa fa-trash-o" style="font-size:18px"></i> Clear Results </button><br>
+
+
+    </form>
+
+
+    <section class="newArticle">
+
+        <article class="pulledArticle">
+
+               <header class="articleHeader"> <i class="fa fa-file-text-o" style="font-size:24px"></i>Top Articles</header>
+
+                <div id = "articleBlosck">
+                    <div class="headerblock"><h2 id="pheader"><span>2</span>  Write the Model Code</h2></div>
+                    <p class="stm">Gh</p>
+                    <p class="stm">section:</p>
+                    <p class="stm">Date</p>
+
+                    <a href="" class="text">
+                    link here
+                </a>
+                </div>
+
+        </article>
+
+
+
+    </section>
+
+
+    <script src="./assets/javascripts/app.js"> </script>
+    <script src="./assets/javascripts/Question.js"> </script>
+    <script src="./assets/javascripts/Quiz.js"> </script>
+
+
+</div>
+
+</body>
+
+</html>
